@@ -28,7 +28,7 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
     <div id="wrapper">
-        <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
             <div class="top-area">
                 <div class="container-fluid nopadding">
                     <div class="row row-plava-traka">
@@ -36,7 +36,7 @@
                             <p class="text-center">Radno vreme: <strong>365 dana, 24h</strong></p>
                         </div>
                         <div class="col-xs-12 col-lg-4 text-center">
-                            <span class="nav-icon"><a class="tlf-tel" href="viber://add?number=+38163233220">viber <i class="fab fa-viber fa-lg"></i></a></span>  <span class="nav-icon"><a class="tlf-tel" href="https://api.whatsapp.com/send?phone=38163233219">whatsApp <i class="fab fa-whatsapp fa-lg"></i></a></span>
+                            <span class="nav-icon"><a class="tlf-tel" href="viber://add?number=+38163233219">viber <i class="fab fa-viber fa-lg"></i></a></span>  <span class="nav-icon"><a class="tlf-tel" href="intent://send/+38163233219#Intent;scheme=smsto;package=com.whatsapp;action=android.intent.action.SENDTO;end">whatsApp <i class="fab fa-whatsapp fa-lg"></i></a></span>
                         </div>
                         <div class="col-xs-12 col-lg-4">
                             <p class="text-center"><strong><span class="tlf"><a class="tlf-tel" href="tel:+38163233219">+381 63 233 220</a> | <a class="tlf-tel" href="tel:+381113130068">+381 11 313 00 68</a></span></strong></p>
@@ -94,7 +94,7 @@
                                                     <div class="panel-body">
                                                         <div id="sendmessage">Vaša poruka je poslata!</div>
                                                         <div id="errormessage"></div>
-                                                        <form action="" method="post" role="form" class="contactForm lead">
+                                                        <form action="_phpmailer/send_email.php" method="post" role="form" class="contactForm lead">
                                                             <div class="row">
                                                                 <div class="col-xs-12 col-sm-6 col-md-6">
                                                                     <div class="form-group">
@@ -129,7 +129,7 @@
                                                                 <div class="col-md-12">
                                                                     <div class="form-group">
                                                                         <label for="comment">Vaša poruka:</label>
-                                                                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                                                                        <textarea class="form-control" rows="5" id="comment" name="body_text"></textarea>
                                                                         <div class="validation"></div>
                                                                     </div>
                                                                 </div>
@@ -305,7 +305,7 @@
         <script src="js/nivo-lightbox.min.js"></script>
         <script src="js/custom.js"></script>
         <script src="js/igor_custom.js"></script>
-        <script src="contactform/contactform.js"></script>
+        <!--<script src="contactform/contactform.js"></script>-->
 </body>
 
 </html>

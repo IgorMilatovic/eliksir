@@ -44,6 +44,23 @@ textarea {
 /* ===========
 layout
 ============= */
+#wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.container, .container-fluid {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #wrapper.boxed {
     margin: 0 auto;
@@ -179,7 +196,7 @@ h6.h-ultra {
 /*-------------------------------------------------------------------------------odavde-------Sinisa*/
 
 .onama-icon {
-	margin-top: 15px;
+    margin-top: 15px;
 }
 
 .spacer {
@@ -189,21 +206,21 @@ h6.h-ultra {
 
 @media (min-width: 410px) and (max-width: 1200px){
     .spacer {
-	    margin-top: 120px;
-	    margin-left: auto;
-	    margin-right: auto;
-	}
+        margin-top: 120px;
+        /*margin-left: auto;
+        margin-right: auto;*/
+    }
 }
 
 @media (max-width: 410px) {
     .spacer {
-	    /*font-size: 35px !important;*/
-	    margin-top: 80px;
-	}
+        /*font-size: 35px !important;*/
+        margin-top: 80px;
+    }
 
-	.dobrodosli {
-		font-size: 40px !important;
-	}
+    .dobrodosli {
+        font-size: 40px !important;
+    }
 }
 
 h2.h-ultra {
@@ -217,9 +234,8 @@ h2.blue,
 }
 
 .galerija-img-center {
-    margin: 0 auto ! important;
+    margin: 0 auto !important;
 }
-
 
 /*-------------------------------------------------------------------------------dovde------Sinisa*/
 
@@ -354,7 +370,7 @@ Top area
     width: 100%;
     color: #fff;
     /*padding-top: 10px;
-	padding-bottom: 10px;*/
+    padding-bottom: 10px;*/
 }
 
 .top-area-prodaja {
@@ -366,11 +382,11 @@ Top area
 
 @media (max-width: 1075px) {
     .top-area-prodaja {
-	    margin: -36px 0 0 -20px;
-	    position: fixed;
-	    max-width: 100%;
-	    z-index: 999;
-	}
+        margin: -36px 0 0 -20px;
+        position: fixed;
+        max-width: 100%;
+        z-index: 999;
+    }
 }
 
 .top-area.top-padding {
@@ -378,8 +394,8 @@ Top area
     -moz-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
     /*padding-top: 6px;
-	padding-bottom: 0;
-	margin-bottom: 10px;*/
+    padding-bottom: 0;
+    margin-bottom: 10px;*/
 }
 
 .top-area p {
@@ -392,13 +408,13 @@ Top area
 
 @media (max-width: 1200px) {
     .row-kreveti {
-	    margin-top: 100px;
-	}
+        margin-top: 100px;
+    }
 }
 
 
 /*.bg-img {
-	margin-top: -47px !important;
+    margin-top: -47px !important;
 }*/
 
 
@@ -411,22 +427,22 @@ Navigation
 }
 
 .nav-icon {
-	display: inline-block;
-	margin: 0 15px;
+    display: inline-block;
+    margin: 0 15px;
 }
 
 .tlf-tel {
-		color: #fff !important;
+        color: #fff !important;
 }
 
 .tlf-tel:hover {
-		color: #3853bc !important;
+        color: #3853bc !important;
 }
 
 @media (max-width: 400px) {
     .tlf {
-		font-size: 15px;
-	}
+        font-size: 15px;
+    }
 }
 
 .logo-style {
@@ -438,7 +454,7 @@ Navigation
 }
 
 /*.logo-style-js {
-	padding-top: 0px;
+    padding-top: 0px;
     margin-top: 5px !important;
     width: 288px !important;
     height: 43px !important;
@@ -461,20 +477,20 @@ Navigation
     }
 
     .navbar-header button {
-	    padding: 5px 10px;
-	    margin-top: 10px !important;
-	    margin-bottom: 0 !important;
-	}
+        padding: 5px 10px;
+        margin-top: 10px !important;
+        margin-bottom: 0 !important;
+    }
 
-	.navigation {
-	    height: 48px !important;
-	}
+    .navigation {
+        height: 48px !important;
+    }
 
-	.navbar-nav {
-		margin-top: 6px !important;
-		background: #fff !important;
-		opacity: 1 !important;
-	}
+    .navbar-nav {
+        margin-top: 6px !important;
+        background: #fff !important;
+        opacity: 1 !important;
+    }
 }
 
 .navbar-brand.reduce {
@@ -1266,34 +1282,37 @@ hr.bold {
 .seka {
     /*position: absolute;
     top: 6px;*/
-    margin-bottom: -20px;
+    /*margin-bottom: -20px;*/
     margin-left: auto;
     margin-right: auto;
 }
 
 @media (min-width: 1199px) {
-    .seka-holder {
-    	position: relative;
-	}
+    .cont-seka {
+        position: relative;
+    }
 
-    .seka {
-        /*visibility: hidden;*/
-		margin-bottom: -100px !important;
-		position: absolute;
-    	top: -44px;
+    .col-seka {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+    .head-box-holder {
+        padding-left: 50px;
     }
 }
 
 .box-text-holder {
-	margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
 }
 
 @media (min-width: 1199px) {
     .spacer {
-		margin-left: 50px;
-	    margin-right: 0;
-	}
+        /*margin-left: 50px;*/
+        margin-right: 0;
+    }
 }
 
 
@@ -1307,7 +1326,7 @@ ul.lead-list {
 }
 
 .head-box-font {
-	font-size: 15px;
+    font-size: 15px;
 }
 
 /*------------------------------------------------------------------------------odavde----------Sinisa*/
@@ -1338,14 +1357,14 @@ ul.lead-list li span.list {
 
 @media (max-width: 585px) {
     ul.lead-list li span.fa {
-	    margin: 5px 5px -21px 0;
-	    float: left;
-	}
+        margin: 5px 5px -21px 0;
+        float: left;
+    }
 
-	ul.lead-list li span.list {
-	    display: inline-block;
-	    margin: 0 0 0 24px;
-	}
+    ul.lead-list li span.list {
+        display: inline-block;
+        margin: 0 0 0 24px;
+    }
 }
 
 p.lead-footer {
@@ -1354,7 +1373,7 @@ p.lead-footer {
 }
 
 .footer-flex {
-	display: flex;
+    display: flex;
 }
 
 .poverenje {
@@ -1603,7 +1622,7 @@ Elements
 
 
 /*.o-nama-colapse-color {
-	color: #4ACCD1;
+    color: #4ACCD1;
 }*/
 
 
@@ -1694,7 +1713,7 @@ Elements
 }
 
 .izdavanje-link {
-	margin-bottom: 7px;
+    margin-bottom: 7px;
 }
 
 @media (max-width: 550px) {
@@ -1823,9 +1842,9 @@ Elements
 }
 
 .iznajmljivanje-centar {
-	max-width: 370px;
-	margin-left: auto;
-	margin-right: auto;
+    max-width: 370px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .glavna-krevet {
@@ -1835,7 +1854,7 @@ Elements
 }
 
 .glavna-krevet-asp {
-	border: none;
+    border: none;
 }
 
 hr {
@@ -1869,7 +1888,7 @@ hr {
 
 
 /*.contact-link a:hover {
-	color: #4ACCD1 !important;
+    color: #4ACCD1 !important;
 }*/
 
 .kreveti-kupovina-info {
@@ -1888,7 +1907,7 @@ hr {
 
 .prodaja-izdavanje-color,
 .prodaja-izdavanje-color-title {
-    color: #67E740FF;
+    color: #67E740;
     font-weight: bolder;
     font-size: 24px !important;
 }
@@ -1899,7 +1918,7 @@ hr {
 
 
 /*.prodaja-mali-span {
-	color: #67E740FF;
+    color: #67E740;
 }*/
 
 .procitajte-o-krevetu {
@@ -1909,7 +1928,7 @@ hr {
 
 .model-bk-margin-top {
     margin-top: 48px;
-    color: #67E740FF
+    color: #67E740
 }
 
 .krevet-slika-holder {
@@ -1953,7 +1972,7 @@ hr {
 /*    OPREMA - DUSECI    */
 
 .duseci-margina {
-	margin-top: 10px;
+    margin-top: 10px;
 }
 
 .dusek-info {
@@ -2011,7 +2030,7 @@ hr {
 
 .aspirator-napomene-li {
     list-style: none;
-    color: #E51C1EFF;
+    color: #E51C1E;
 }
 
 
@@ -2036,15 +2055,15 @@ hr {
 Testimonial
 =========================== */
 .testimonial-ime {
-	color: #545252!important;
-	 font-weight: 500;
+    color: #545252!important;
+     font-weight: 500;
 }
 
 
 #testimonial {
     background-image: url(../img/parallax/hands-white-nize.jpg);
-	background-size: cover;
-	background-position: center top;
+    background-size: cover;
+    background-position: center top;
 }
 
 .carousel-control.left,
@@ -2479,7 +2498,7 @@ a.scrollup i:hover {
     font-size: 17px;
     text-align: center;
     margin-bottom: 0;
-    padding: 30px 0;
+    padding: 30px 4px;
     border-radius: 4px 4px 0 0;
 }
 
@@ -2757,7 +2776,7 @@ a.btn:focus {
 /* ==== partner ==== */
 
 #partner {
-	margin-top: -60px;
+    margin-top: -60px;
 }
 
 .partner {
@@ -3188,7 +3207,7 @@ a.btn:focus {
 
 .iznajmljivanje_mali-link {
     padding: 3px;
-    border: 1px solid #67E740FF;
+    border: 1px solid #67E740;
     border-radius: 4px;
     width: 185px;
     margin-left: 0px;
@@ -3200,7 +3219,7 @@ a.btn:focus {
 
 
 .iznajmljivanje_mali-link-a {
-    color: #67E740FF;
+    color: #67E740;
 }
 
 .kolica-najam {
@@ -3245,7 +3264,7 @@ a.btn:focus {
 
 .oprema-ponuda-najava {
     font-size: 28px;
-    color: #67E740FF;
+    color: #67E740;
     font-weight: 600;
     margin: 20px 0;
 }
@@ -3291,8 +3310,14 @@ a.btn:focus {
 .intro-content {
     background: url(../img/dummy/bg1.jpg) no-repeat top center;
     background-size: cover;
-    padding: 180px 0 20px;
+    padding: 180px 0 0;
 }
 
 
 /*SINISA dodao background size cover*/
+
+
+.header-text-big-wrapper {
+    max-width: 650px;
+    margin: 0 auto;
+}

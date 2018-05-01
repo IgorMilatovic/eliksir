@@ -1935,6 +1935,11 @@ hr {
     margin-bottom: 20px;
 }
 
+.krevet-slika, .aspirator-slika, .koncentrator-slika {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .list-oprema {
     list-style: none;
     padding-left: 0;

@@ -1,0 +1,163 @@
+/*STILOVI ZA STRANE O VISE INFORMACIJA */
+
+#more-info {
+	margin-top: 173px;
+	background-color: #fff;
+}
+
+
+.bg-img {
+	background-image: url("../img/cover-1.jpg");
+	background-size: cover;
+	background-position: 50% center;
+	height: 250px;
+	margin-top: -49px;
+}
+
+.bg-img-patron {
+	background: url("../img/cover-8-2.jpg") no-repeat center center;
+	background-size: cover;
+	background-position: center;
+	height: 250px;
+	margin-top: -49px;
+}
+
+/*@media (min-width: 1200px) {
+    .bg-img, .bg-img-patron {
+    	margin-top: -73px !important;
+    }
+}*/
+
+.bg-img h2 {
+	padding-top: 90px;
+	color: #4ACCD1;
+	text-shadow: 0 0 2px #fff;
+}
+
+.naslovi-color {
+	color: #4ACCD1 !important;
+}
+
+.info {
+	padding-bottom: 50px;
+	margin-top: 35px;
+}
+
+.info h3 {
+	margin: 10px 0;
+	padding-top: 5px;
+}
+
+.info h5 {
+	margin-bottom: 10px;
+	padding-top: 5px;
+}
+
+.info p {
+	font-size: 18px;
+	color: #666;
+	line-height: 32px;
+	margin-bottom: 20px;
+}
+
+.info ul {
+	list-style: none;
+	margin: 30px;
+}
+
+.info span {
+	float: left;
+	margin: 0 10px;
+	color: blue;
+}
+
+.list li span {
+	padding-top: 10px;
+}
+.list li p {
+	margin: 5px;
+}
+
+
+
+	/*Sinisa - promena boje "kvacica"*/
+.icon-success {
+	color: #4ACCD1 !important;
+}
+	/*Sinisa - promena boje "kvacica"*/
+
+
+@media screen and (max-width: 1000px) {
+	.bg-img {
+		margin-top: -23px;
+		background-position: 50% center;
+	}
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+	.bg-img-ajde {
+		margin-top: -3px;
+		background-position: 50% center;
+	}
+
+	.bg-img {
+		margin-top: -23px;
+		background-position: 50% center;
+	}
+}
+
+@media screen and (max-width: 685px) {
+	.bg-img {
+		padding-top: 50px;
+		background-position: 55% center;
+}
+
+@media screen and (max-width: 600px) {
+	.info ul {
+		padding-left: 0;
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.bg-img {
+		padding-top: 50px;
+		background-position: 60% center;
+}
+
+	.bg-img h2 {
+		padding-top: 110px;
+		font-size: 40px !important;
+	}
+
+	.info h3 {
+		font-size: 26px !important;
+	}
+
+	.info p {
+		font-size: 16px !important;
+	}
+
+	.fa-2x {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.bg-img {
+		height: 200px;
+		margin-top: 5px;
+	}							
+
+	.bg-img h2 {
+		padding-top: 50px;
+	}
+}
+
+@media screen and (max-width: 361px) {
+	.bg-img {
+		margin-top: 60px;
+	}			
+}
+
+

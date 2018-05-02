@@ -406,10 +406,8 @@ Top area
     margin: 7px 0;
 }
 
-@media (max-width: 1200px) {
-    .plava-traka-width {
-        width: 100% !important;
-    }
+.cbp-popup-singlePage .cbp-popup-content {
+    width: 92% !important;
 }
 
 @media (max-width: 1200px) {

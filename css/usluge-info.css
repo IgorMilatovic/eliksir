@@ -111,8 +111,12 @@
 @media screen and (max-width: 685px) {
 	.bg-img {
 		padding-top: 50px;
-		background-position: 55% center;
-}
+		background-position: 70% center;
+	}
+
+	.bg-img-ajde {
+		background-position: 50% center;
+	}
 
 @media screen and (max-width: 600px) {
 	.info ul {

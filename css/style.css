@@ -376,8 +376,9 @@ Top area
 .top-area-prodaja {
     margin: -36px 0 0 0;
     position: fixed;
-    max-width: 1015px;
+    max-width: 100%;
     z-index: 999;
+    left: 0;
 }
 
 @media (max-width: 1075px) {
@@ -404,10 +405,6 @@ Top area
 
 .row-plava-traka {
     margin: 7px 0;
-}
-
-.cbp-popup-singlePage .cbp-popup-content {
-    width: 92% !important;
 }
 
 @media (max-width: 1200px) {

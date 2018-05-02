@@ -152,7 +152,7 @@
 @media screen and (max-width: 414px) {
 	.bg-img {
 		height: 200px;
-		margin-top: 5px;
+		margin-top: -22px;
 	}							
 
 	.bg-img h2 {
@@ -162,7 +162,7 @@
 
 @media screen and (max-width: 361px) {
 	.bg-img {
-		margin-top: 60px;
+		margin-top: -23px;
 	}			
 }
 

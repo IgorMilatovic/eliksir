@@ -378,7 +378,7 @@ Top area
     position: fixed;
     max-width: 100%;
     z-index: 999;
-    left: 0;
+    right: 0;
 }
 
 @media (max-width: 1075px) {
@@ -387,6 +387,7 @@ Top area
         position: fixed;
         max-width: 100%;
         z-index: 999;
+        right: 0;
     }
 }
 

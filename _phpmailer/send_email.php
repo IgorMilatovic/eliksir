@@ -6,7 +6,7 @@ $mail = new PHPMailer;
 $mail->SMTPAuth = false;
 $mail->From = 'info@zdravstvenanegaeliksir.rs';
 $mail->FromName = 'info';
-$mail->addAddress('novdarko@yahoo.com', 'Zdravstvena Nega Eliksir'); //---------!!! ovde upises adresu primaoca..mozes prvo svoju kako bi testirao, pa posle njihovu centareliksir@gmail.com
+$mail->addAddress('zdravstvenanega@eliksir.co.rs', 'Zdravstvena Nega Eliksir'); //---------!!! ovde upises adresu primaoca..mozes prvo svoju kako bi testirao, pa posle njihovu 
 $mail->addReplyTo('info@zdravstvenanegaeliksir.rs', 'Info Eliksir');
 $mail->WordWrap = 50;
 $mail->isHTML(true);

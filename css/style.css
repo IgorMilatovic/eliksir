@@ -1848,10 +1848,9 @@ Elements
     margin-right: auto;
 }
 
-.glavna-krevet {
+.bas-glavna-oprema {
     border: 1px solid #e2e2e2;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin: 24px auto; !important;
 }
 
 .glavna-krevet-asp {
@@ -1869,9 +1868,10 @@ hr {
     font-size: 17px;
     border: 1px solid #4ACCD1;
     border-radius: 5px;
-    /*width: 330px;*/
+    width: 100%;
+    max-width: 330px;
     /*margin: 0 auto 30px auto;*/
-    margin: 10px 30px;
+    margin: 10px auto;
     padding: 4px;
     background: #4ACCD1;
     font-weight: 700;

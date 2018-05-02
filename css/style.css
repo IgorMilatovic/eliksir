@@ -407,6 +407,12 @@ Top area
 }
 
 @media (max-width: 1200px) {
+    .plava-traka-width {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
     .row-kreveti {
         margin-top: 100px;
     }
